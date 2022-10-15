@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo"><a href="./index.html" style="text-decoration: none;">Spid3r></a></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Tusharkanta Rout</span>
+          <p>
+            Hello Everyone! My Self TusHar and I am a BCA Student and a
+            Professional Web Developer and a UI/UX Designer.
+          </p>
+          <button>Hire Me</button>
+        </div>
+        <div class="main-two">
+          <img src="./Images/Images/295204486_1087095255345468_6589653036784258599_n.jpg" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          Lorem ipsum dolor sicing elit. Molestias officiis veniam reprehenderit
+          minima praesentium provident eos aperiam excepturi doloribus impedit.
+        </p>
+        <button class="button">
+          <a href="https://www.google.com" style="text-decoration: none">Download CV</a>
+        </button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Images/5.png" alt="" />
+          <h3>Projects</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, ex!
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Images/6.png" alt="" />
+          <h3>Git Hub Repos</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
+            debitis.
+          </p>
+          <button>Show Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Images/7.png" alt="" />
+          <h3>Upcoming Projects</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            nulla!
+          </p>
+          <button>Download</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>TusHar</span>
+          <p>
+            Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium nemo quae deserunt aliquam expedita tempore! Laudantium,
+            nobis. Commodi, quod ad. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Illum iusto sequi dolores nulla quibusdam
+            architecto porro officiis, delectus tenetur neque? Quasi ex pariatur
+            modi laudantium ipsam officia numquam corrupti, inventore sequi
+            consequatur cum ad ducimus aliquid, necessitatibus voluptas. Autem,
+            sint. ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            ore.
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/Images/about.jpg" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let's <span>Get in Contact</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." id="same" />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." id="same" />
+          </div>
+          <textarea name="" id="" cols="65" rows="6" placeholder="Enter your Message here...."></textarea>
+          <div>
+            <input type="submit" value="Send" id="not" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy" style="color: white">@copywrite by Spider</div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/mr.d3sperate/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://chat.whatsapp.com/Kut6kaIcP9L5Sh4PwFz6fg" target="_blank"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/tusharkanta-rout-385181209/" target="_blank"><i
+              class="fa fa-linkedin-square"></i></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Tusharkanta Rout", "Web Developer", "UI/UX Designer"],
+        typeSpeed: 80,
+        backSpeed: 90,
+        loop: true,
+      });
+    </script>
+  </body>
+
+</html>
